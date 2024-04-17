@@ -58,6 +58,10 @@ void shopping :: menu()
 			{
 				administrator();
 			}
+			else if(email=="iamankur@gmail.com" && password=="@Ankur3012")
+			{
+				administrator();
+			}
 			else
 			{
 				cout<<"Invalid email/password";
@@ -73,6 +77,9 @@ void shopping :: menu()
 	
 	case 3:
 		{
+			cout<<"Thank you for using our system"<<endl;
+			cout<<"Have a nice day"<<endl;
+			cout<<"Please Do visit again"<<endl;
 			exit(0);
 		}
 		
